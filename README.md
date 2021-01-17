@@ -10,8 +10,9 @@ A horizontal calendar view, slide left or right infinitely, using `UICollectionV
 
 ## Next Step
 
-- Fix blink on first launch
-- Make it configurable
+- [ ] Fix blink on first launch
+- [ ] Make it configurable
+- [ ] Fix when sliding too fast, view updated lag
 
 ## Enviroment
 
