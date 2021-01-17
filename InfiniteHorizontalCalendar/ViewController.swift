@@ -9,11 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var calendarView: CalendarView!
+    
+    let calendarWidth = 350
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        overrideUserInterfaceStyle = .light
+        calendarView = CalendarView(parentView: self.view)
     }
 
-
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        calendarView.setContentOffset(CGPoint(x: calendarWidth, y: 0), animated: false)
+    }
+    
 }
 
