@@ -1,10 +1,12 @@
 #  Infinite Horizontal Calendar
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A horizontal calendar view, slide left or right infinitely, using `UICollectionView`.
 
 ## Demo
+
+![Demo Image](https://github.com/rijieli/InfiniteHorizontalCalendar/raw/main/Demo.gif)
 
 ## Next Step
 
